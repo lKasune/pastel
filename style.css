@@ -124,21 +124,33 @@ border-radius: 3%;
   display: flex;
   flex-wrap: wrap;
   padding: 1%;
-  background-color: #fdbba1;
+  background-image: url(fondo\ texto.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   border-radius: 3%;
   margin: 1%;
   
   
 }
 .texto{
-  background-color: #d81212;
+  background-image: url(fondo\ texto.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   width: 35%;
+  margin: 1%;
+  border-radius: 5%;
+  padding: 1%;
+
 }
 .imagenes{
-  background-color: #1d462e;
-  width: 50%;
+  background-color: #1d462e00;
+  width: 60%;
   display: flex;
-  flex-direction: row;
+  flex-direction :row;
+flex-wrap: wrap;
+justify-content: center;
   padding: 1%;
   
 
