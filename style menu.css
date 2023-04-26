@@ -124,17 +124,19 @@ border-radius: 3%;
   display: flex;
   flex-wrap: wrap;
   padding: 1%;
-  background-image: url(fondo\ texto.jpg);
+  background-color: #500a01;
+  /* background-image: url(fondo\ texto.jpg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: auto;
   border-radius: 3%;
   margin: 1%;
   
   
 }
 .texto{
-  /* background-image: url(fondo\ texto.jpg); */
+    background-color: #500a01;
+  background-image: url(fondo\ texto.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -163,15 +165,6 @@ footer{
   color: #eee;
   
 }
-
-.copy{
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #500a01;
-  padding-left: 10%;
-  color: #eeeeee77;
-}
-
 .zoom {
   transition: transform .2s; 
 }
