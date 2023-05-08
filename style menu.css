@@ -131,6 +131,7 @@ border-radius: 3%;
   background-size: auto;
   border-radius: 3%;
   margin: 1%;
+  color: #eee;
   
   
 }
@@ -165,6 +166,15 @@ footer{
   color: #eee;
   
 }
+
+.copy{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #500a01;
+  padding-left: 10%;
+  color: #eeeeee77;
+}
+
 .zoom {
   transition: transform .2s; 
 }

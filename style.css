@@ -14,7 +14,7 @@ body {
 .nav {
   height: 80px;
   width: 100%;
-  background-color: #500a01;
+  background-color: rgb(160, 98, 63);
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -52,7 +52,8 @@ body {
   color: #efefef;
 }
 
-.nav > .nav-links > a:hover {
+.nav > .nav-links > a:hover 
+{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -60,8 +61,99 @@ body {
   display: none;
 }
 
-@media (max-width:600px) {
-  .nav > .nav-btn {
+
+
+section{
+background-color: #a0623f;
+width: 65%;
+margin: 1%;
+display: flex;
+flex-direction :row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 1%;
+border-radius: 3%;
+}
+
+section1{
+  background-image: url(cabezera.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  display: flex;
+  flex-direction :row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  color: #eee;
+  
+}
+
+
+.caja1{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  background-color: #f1e2cc;
+  border-radius: 3%;
+  margin: 1%;
+  
+  
+}
+.texto{
+  /* background-image: url(fondo\ texto.jpg); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 35%;
+  margin: 1%;
+  border-radius: 5%;
+  padding: 1%;
+
+}
+.imagenes{
+  background-color: #1d462e00;
+  width: 60%;
+  display: flex;
+  flex-direction :row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1%;
+
+
+}
+footer{
+  background-color: #500a01;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #eee;
+  
+}
+
+.copy{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #500a01;
+  padding-left: 10%;
+  color: #eeeeee77;
+}
+
+.zoom {
+  transition: transform .2s; 
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+
+@media (max-width: 393px) {
+  .nav > .nav-btn 
+  {
     display: inline-block;
     position: absolute;
     right: 0px;
@@ -103,102 +195,33 @@ body {
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
-  }
-}
-section{
-background-color: #f9a686;
-width: 65%;
-margin: 1%;
-display: flex;
-flex-direction :row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-padding: 1%;
-border-radius: 3%;
-
+  }   
 }
 
-.caja1{
-  width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1%;
-  background-image: url(fondo\ texto.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  border-radius: 3%;
-  margin: 1%;
-  
-  
-}
-.texto{
-  /* background-image: url(fondo\ texto.jpg); */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  width: 35%;
-  margin: 1%;
-  border-radius: 5%;
-  padding: 1%;
-
-}
-.imagenes{
-  background-color: #1d462e00;
-  width: 60%;
-  display: flex;
-  flex-direction :row;
-flex-wrap: wrap;
-justify-content: center;
-  padding: 1%;
-  
-
-}
-footer{
-  background-color: #500a01;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  color: #eee;
-  
-}
-
-.copy{
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #500a01;
-  padding-left: 10%;
-  color: #eeeeee77;
-}
-
-.zoom {
-  transition: transform .2s; 
-}
-
-.zoom:hover {
-  transform: scale(1.1); 
-}
-
-.sombra{
-  box-shadow: #333;
-}
 
 
 
 @media (max-width:600px){
+
   section{
-    background-color: #b34113;
-
+    background-color: #a0623f;
     flex-direction :column;
-
-    
+    width: 71%;
+    border-radius: 50px;
+    padding: 2%; 
     }
+
     .caja1{
       width: 90%;
       display: flex;
       flex-wrap: wrap;
       padding: 2%;
+      border-radius: 50px;
     }
+
+    
+    
+
+  
 }
 
